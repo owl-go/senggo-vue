@@ -8,7 +8,10 @@
         <Left></Left>
       </div>
       <div class="right">
-        <Page></Page>
+        <router-link to="/">首页</router-link>&nbsp;
+        <router-link to="/chart">图标</router-link>
+
+        <router-view></router-view>
       </div>
     </div>
   </div>
@@ -17,14 +20,11 @@
 <script>
 import Header from "./components/Header.vue";
 import Left from "./components/Left.vue";
-import Page from "./views/Page1.vue"
-// import Right from "./components/Right.vue";
 export default {
   name: "App",
   components: {
     Header,
     Left,
-    Page,
   },
 };
 </script>
@@ -48,6 +48,6 @@ export default {
 .right {
   flex: 1;
   padding: 10px;
-  background:white;
+  background: white;
 }
 </style>

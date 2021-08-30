@@ -16,6 +16,9 @@
       <el-pagination background layout="prev, pager, next" :total="1000">
       </el-pagination>
     </div>
+    <!-- <ul>
+      <li v-for="(item, index) in list" v-bind:key="index">{{ item }}</li>
+    </ul> -->
   </div>
 </template>
 
@@ -48,6 +51,7 @@ export default {
   data() {
     return {
       tableData: [],
+      // list: [2, 345, 56, 778, 44],
     };
   },
 };
