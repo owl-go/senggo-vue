@@ -20,3 +20,17 @@ a{
 .a-c{
     align-items:center;
 }
+.f-r{
+    float: right;
+}
+body, button, input, select, textarea {
+    font-size: 12px;
+    font-family: "PingFang SC",Arial,"Microsoft YaHei",sans-serif;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
