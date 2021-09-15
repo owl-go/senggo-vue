@@ -97,6 +97,17 @@ export default new VueRouter({
             description:'pdf转word，pdf转ppt，pdf转excel',
           }
         } 
-      }
+      }, 
+      { path:'/other/format/:title',
+      component:()=>import(/* webpackChunkName: "other" */ '../views/other/format'),
+      props:true,
+      meta: {
+        title: 'sql美化，xml美化',
+        content:{
+          keywords:'sql美化，xml美化',
+          description:'sql美化，xml美化',
+        }
+      } 
+    },
     ]
   })

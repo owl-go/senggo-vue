@@ -50,13 +50,14 @@
         <el-menu-item index="/network/dns">常用DNS</el-menu-item>
         <el-menu-item index="/network/user-agent">User-Agent</el-menu-item>
       </el-submenu> -->
-      <!-- <el-submenu index="/other/timestamp">
+      <el-submenu index="/other/format/sql">
         <template slot="title">其他工具</template>
-        <el-menu-item index="/other/timestamp">时间戳转化</el-menu-item> -->
-      <!-- <el-menu-item index="/other/random">随机字符串或密码生成</el-menu-item> -->
-      <!-- <el-menu-item index="/other/uuid">UUID生成</el-menu-item> -->
-      <!-- <el-menu-item index="/other/markdown">markdown在线编辑</el-menu-item> -->
-      <!-- </el-submenu> -->
+        <el-menu-item index="/other/format/xml">xml美化</el-menu-item>
+        <el-menu-item index="/other/format/sql">sql美化</el-menu-item>
+        <!-- <el-menu-item index="/other/random">随机字符串或密码生成</el-menu-item> -->
+        <!-- <el-menu-item index="/other/uuid">UUID生成</el-menu-item> -->
+        <!-- <el-menu-item index="/other/markdown">markdown在线编辑</el-menu-item> -->
+      </el-submenu>
     </el-menu>
   </div>
 </template>

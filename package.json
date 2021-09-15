@@ -15,8 +15,10 @@
     "element-ui": "^2.15.3",
     "js-beautify": "^1.14.0",
     "js-md5": "^0.7.3",
+    "sql-formatter": "^4.0.2",
     "vue": "^2.6.11",
-    "vue-router": "^3.5.2"
+    "vue-router": "^3.5.2",
+    "xml-formatter": "^2.4.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
