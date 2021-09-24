@@ -109,5 +109,16 @@ export default new VueRouter({
         }
       } 
     },
+    { path:'/other/markdown',
+    component:()=>import(/* webpackChunkName: "other" */ '../views/other/markdown'),
+    props:true,
+    meta: {
+      title: 'markdown在线编辑',
+      content:{
+        keywords:'markdown在线编辑',
+        description:'markdown在线编辑',
+      }
+    } 
+  },
     ]
   })
